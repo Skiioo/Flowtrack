@@ -1,0 +1,118 @@
+# ===============================
+# GÉNÉRAL
+# ===============================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# ===============================
+# BACKEND (Java/Spring Boot)
+# ===============================
+
+# Maven
+backend/demo/target/
+backend/demo/.mvn/wrapper/maven-wrapper.jar
+backend/demo/.mvn/wrapper/maven-wrapper.properties
+
+# Gradle (si utilisé)
+backend/demo/.gradle/
+backend/demo/build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Spring Boot
+backend/demo/application-*.properties
+backend/demo/application-*.yml
+backend/demo/*.log
+
+# ===============================
+# FRONTEND (Next.js)
+# ===============================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Production
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Vercel
+frontend/.vercel
+
+# TypeScript
+frontend/*.tsbuildinfo
+
+# ===============================
+# DOCKER
+# ===============================
+
+# Ne pas ignorer les Dockerfiles, mais ignorer les builds locaux
+# docker-compose.override.yml (si vous en créez un pour le dev local)
+
+# ===============================
+# BASE DE DONNÉES
+# ===============================
+
+# Fichiers de dump SQL temporaires
+*.sql
+*.sqlite
+*.db
+
+# ===============================
+# SÉCURITÉ - TRÈS IMPORTANT
+# ===============================
+
+# Variables d'environnement avec des secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Clés et certificats
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
+# Configurations avec mots de passe
+**/application-prod.properties
+**/application-production.properties
